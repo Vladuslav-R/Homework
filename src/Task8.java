@@ -1,17 +1,21 @@
-
 import java.util.Scanner;
 
-public class Task6 {
+public class Task8 {
+
 
     public static void main(String[] agrs) {
         int a = enterInt("введите число ");
-
-
-        if (a % 10 == 7) {
-            System.out.println("Последняя цифра является 7");
+        int b = a % 10;
+        if (a % 10 == 1) {
+            System.out.println(a + " рубль");
+        } else if (10 < a && a < 21) {
+            System.out.println(a + " рублей");
+        } else if (1 < b && b < 5) {
+            System.out.println(a + " рубля");
         } else {
-            System.out.println("Последняя цифра не является 7");
+            System.out.println(a + " " + "рублей");
         }
+
     }
 
 
@@ -27,5 +31,6 @@ public class Task6 {
 
 
     }
-
 }
+
+
