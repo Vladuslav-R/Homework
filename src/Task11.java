@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Task11 {
     public static void main(String[] agrs) {
         int a = enterInt("Введите день недели");
+        int b = enterInt("Введите день недели");
 
 
     }
