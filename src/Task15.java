@@ -5,21 +5,22 @@ public class Task15 {
 
         int count = 1;
         for (int i = 50; i < 70; i++) {
-            int k = 0;
+            boolean isPrime = true;
 
-            for (int j = 2; j <= i; j++) {
+            for (int j = 2; j < i; j++) {
                 if ((i % j) == 0) {
-                    k++;
+                    isPrime = false;
+                    break;
                 }
-
             }
-            if (k < 2) {
+            
+            if (isPrime) {
+                System.out.println(i);
                 if (count == 2) {
-                    System.out.println(i);
+                    System.out.println("i" + i);
                     break;
                 }
                 count++;
             }
         }
-    }
 }
