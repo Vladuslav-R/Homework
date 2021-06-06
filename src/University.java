@@ -1,23 +1,35 @@
+
+
+
 public class University {
+
+
     public static void main(String[] args) {
-             Student people = new Student();
-            // people [0].name = Vasya;
-           //  people [0] = new Student();
-       // people [0].birthday = 10;
-        people.birthday=10;
 
-        System.out.println(people.birthday);
+
+        Human[] student = new Human[4];
+
+        student[0] = new Human("Appolon", "Hitrozadov",2000, 1, "Zoofac");
+        student[1] = new Human("Traktorina", "Chumazova", 2000, 1, "Mehfac");
+        student[2] = new Human("Algebrina", "Botanova", 2000,1,"Zauckasfac");
+        student[3] = new Human("Vladimir", "Ulyanov", 1870,13, "Revolucionno_predatelskiy");
+
+
+        //System.out.println(student[0].birthday.toString());
+        System.out.println(student[0].getFaculty() );
     }
-
-    public class Student {
-        int id;
-        String name ;
-        String surname;
-        int telNumber;
-        int birthday;
-        String faculty;
-        int group;
-        int course;
-    }
-
 }
+
+
+
+        /*for (int i = 0; i < student.length; i++  ) {
+            if (student[i].id > 1235)
+                System.out.println(student[i].name);
+        }
+
+        //System.out.println(student[0].name);
+    }
+
+
+    }
+*/
