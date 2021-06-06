@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TaskTwentySeven {
     public static void main(String[] args) {
        String s = enterString("Введите текст");
-       s.trim();
+        s = s.trim();
         char symbol;
         String commas;
         String spaces;
@@ -16,7 +16,7 @@ public class TaskTwentySeven {
 
         for (int j = 0; j < s.length(); j++) {
             symbol = s.charAt(j);
-            if (symbol == ' ') {
+            if (symbol == ' '&&s.charAt(j-1) != ' ' ) {
                 numberOfSpaces++;
             }
         }
