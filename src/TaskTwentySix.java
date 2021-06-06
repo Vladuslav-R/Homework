@@ -6,8 +6,8 @@ public class TaskTwentySix {
 
 
 
-        int numberOfCommas = 0;
-        int numberOfPoints = 0;
+        int quantityOfCommas = 0;
+        int quantityOfPoints = 0;
         int positionIndexInTheString = 0;
         char symbol;
         String commas;
@@ -15,26 +15,26 @@ public class TaskTwentySix {
         for (int i = 0; i < s.length(); i++) {
             symbol = s.charAt(i);
             if (symbol == ',') {
-                numberOfCommas++;
+                quantityOfCommas++;
             }
         }
         for (int j = 0; j < s.length(); j++) {
             symbol = s.charAt(j);
             if (symbol == '.') {
-                numberOfPoints++;
+                quantityOfPoints++;
             }
         }
-        if (numberOfPoints % 10 == 1) {
+        if (quantityOfPoints % 10 == 1) {
             points = "точка";
-        } else if (numberOfPoints % 10 == 2 || numberOfPoints % 10 == 3||numberOfPoints % 10 == 4) {
+        } else if (quantityOfPoints % 10 == 2 || quantityOfPoints % 10 == 3||quantityOfPoints % 10 == 4) {
             points = "точки";
         } else {
             points = "точек";
         }
 
-        if (numberOfCommas % 10 == 1) {
+        if (quantityOfCommas % 10 == 1) {
             commas = "запятая";
-        } else if (numberOfCommas % 10 == 2 || numberOfCommas == 0) {
+        } else if (quantityOfCommas % 10 == 2 || quantityOfCommas == 0) {
             commas = "запятых";
         } else {
             commas = "запятые";
@@ -50,7 +50,7 @@ public class TaskTwentySix {
 
         }*/
 
-        System.out.println(numberOfCommas+ " "+ commas+ " " +numberOfPoints+ " "+points );
+        System.out.println(quantityOfCommas+ " "+ commas+ " " +quantityOfPoints+ " "+points );
 
 
         }

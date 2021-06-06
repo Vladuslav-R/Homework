@@ -8,33 +8,33 @@ public class TaskTwentySeven {
         String commas;
         String spaces;
 
-        int numberOfSpaces = 0;
+        int quantityOfSpaces = 0;
         if(s.length() != 0) {
-            numberOfSpaces++;
+            quantityOfSpaces++;
         }
 
 
         for (int j = 0; j < s.length(); j++) {
             symbol = s.charAt(j);
             if (symbol == ' '&&s.charAt(j-1) != ' ' ) {
-                numberOfSpaces++;
+                quantityOfSpaces++;
             }
         }
         if (s.charAt(0) == ' ') {
-            numberOfSpaces--;
+            quantityOfSpaces--;
         }
         if (s.charAt(s.length()-1) == ' ') {
-            numberOfSpaces--;
+            quantityOfSpaces--;
         }
 
-        if (numberOfSpaces == 1) {
+        if (quantityOfSpaces == 1) {
             spaces = "слово";
 
-        }else if (numberOfSpaces % 10 == 1) {
+        }else if (quantityOfSpaces % 10 == 1) {
             spaces = "слов";
-        }  else if (numberOfSpaces % 10 == 2 || numberOfSpaces % 10 == 3||numberOfSpaces % 10 == 4) {
+        }  else if (quantityOfSpaces % 10 == 2 || quantityOfSpaces % 10 == 3||quantityOfSpaces % 10 == 4) {
             spaces = "слова";
-        }else if(numberOfSpaces>10||numberOfSpaces<20) {
+        }else if(quantityOfSpaces>10||quantityOfSpaces<20) {
             spaces = "слов";
         } else {
             spaces = "слов";
