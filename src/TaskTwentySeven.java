@@ -45,7 +45,7 @@ public class TaskTwentySeven {
 
 
 
-        System.out.println( numberOfSpaces+ " "+spaces);
+        System.out.println( quantityOfSpaces+ " "+spaces);
 
 
         }
