@@ -1,4 +1,4 @@
-
+package by.minsk.epam.radkevich.practice.animal;
 
 
 public class University {
@@ -15,7 +15,7 @@ public class University {
         student[3] = new Human("Vladimir", "Ulyanov", 1870,13, "Revolucionno_predatelskiy");
 
 
-Human.class.
+
 
 
 
