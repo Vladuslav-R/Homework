@@ -7,7 +7,7 @@ public class TaskThirtieth {
 
 
         public static void main(String[] args) {
-            List<Integer> studientы = new ArrayList();
+            List<Integer> studient = new ArrayList();
 
             for (int i = 0; i < 10; i++) {
                 studient.add(ThreadLocalRandom.current().nextInt(1, 10));
