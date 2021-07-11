@@ -1,6 +1,4 @@
-package by.minsk.epam.radkevich.homework.vechicle;
-
-import by.minsk.epam.radkevich.practice.vechicle.CarModel;
+package by.minsk.epam.radkevich.practice.vechicle;
 
 public class Vehicle {
 
@@ -12,7 +10,7 @@ public class Vehicle {
     CarModel carModel;
     int numberOfWheels;
 
-    public Vehicle(String name, String engineType, int engineVolume, int weight, Color color, int numberOfWheels) {
+    public Vehicle(String name, String engineType, int engineVolume, int weight, CarModel carModel, int numberOfWheels) {
         this.name = name;
         this.engineType = engineType;
         this.engineVolume = engineVolume;
