@@ -35,7 +35,7 @@ public class Task2 {
 
 
         }
-        System.out.println("\nиндекс минимального числа" + " " + indMin + " " + "minim " + min + " " + "\nиндекс максимального числа" + " " + indMax + " " + "максимум " + max);
+        System.out.println("\nиндекс минимального числа" + " " + indMin + " " + "минимум " + min + " " + "\nиндекс максимального числа" + " " + indMax + " " + "максимум " + max);
         array[indMin] = max;
         array[indMax] = min;
 
