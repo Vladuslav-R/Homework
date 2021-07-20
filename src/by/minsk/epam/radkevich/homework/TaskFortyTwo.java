@@ -9,7 +9,7 @@ public class TaskFortyTwo {
 
         String[] words = message.toLowerCase().replaceAll("[-.?!)(,:]", "").split("\\s");
 
-        Map<String, Integer> counterMap = new TreeMap<>();
+        Map<String, Integer> counterMap = new HashMap<>();
         for (String word : words) {
             if (!word.isEmpty()) {
                 Integer count = counterMap.get(word);

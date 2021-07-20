@@ -30,7 +30,7 @@ public class Task52 implements Runnable {
     }
 }
 
-class MultiThread2 {
+class MultiThrea {
     public static void main(String args[]) throws InterruptedException {
 
         new Task52("Thread One");

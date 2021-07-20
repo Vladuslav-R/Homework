@@ -11,7 +11,7 @@ public class Garage <T extends Vehicle> {
 
     public void print() {
         for (T transport: transports) {
-            System.out.println(transport.name);
+            System.out.println(transport.name+transport.engineType);
         }
     }
 }
