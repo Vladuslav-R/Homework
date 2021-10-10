@@ -1,4 +1,4 @@
-package by.minsk.epam.javaweb.radkevich.lesson1.basketBall;
+package by.minsk.epam.javaweb.radkevich.task2.basketBall;
 
 
 import java.util.Arrays;

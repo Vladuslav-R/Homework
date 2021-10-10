@@ -1,4 +1,4 @@
-package by.minsk.epam.javaweb.radkevich.lesson1;
+package by.minsk.epam.javaweb.radkevich.task1.task107;
 
 import java.util.Scanner;
 
@@ -11,6 +11,8 @@ public class Task7 {
         double ay = enterDouble("Enter the value of Y at point A");
         double bx = enterDouble("Enter the value of X at point B");
         double by = enterDouble("Enter the value of Y at point B");
+
+
         double pointAdistanceСalculation =  Math.abs(Math.pow(ax,2)+Math.pow(ay,2));
         double pointBdistanceСalculation =  Math.abs(Math.pow(bx,2)+Math.pow(by,2));
         if (pointAdistanceСalculation>pointBdistanceСalculation) {
