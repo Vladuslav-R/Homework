@@ -1,6 +1,6 @@
-package by.minsk.epam.radkevich.practice.electricalappliances.cooking;
+package by.minsk.epam.radkevich.homework.electricalappliances.cooking;
 
-import by.minsk.epam.radkevich.practice.electricalappliances.ElectricalAppliances;
+import by.minsk.epam.radkevich.homework.electricalappliances.ElectricalAppliances;
 
 public class CookingDevices extends ElectricalAppliances {
 

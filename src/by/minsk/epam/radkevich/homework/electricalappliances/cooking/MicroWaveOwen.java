@@ -1,4 +1,4 @@
-package by.minsk.epam.radkevich.practice.electricalappliances.cooking;
+package by.minsk.epam.radkevich.homework.electricalappliances.cooking;
 
 public class MicroWaveOwen  extends CookingDevices {
     public MicroWaveOwen(String name, int powerOfEngine, boolean isPlugged) {

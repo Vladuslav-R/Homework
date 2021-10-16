@@ -1,9 +1,9 @@
-package by.minsk.epam.radkevich.practice.electricalappliances;
+package by.minsk.epam.radkevich.homework.electricalappliances;
 
-import by.minsk.epam.radkevich.practice.electricalappliances.comfort.Ionizer;
-import by.minsk.epam.radkevich.practice.electricalappliances.cooking.CookingDevices;
-import by.minsk.epam.radkevich.practice.electricalappliances.cooking.CookingProcessor;
-import by.minsk.epam.radkevich.practice.electricalappliances.cooking.MicroWaveOwen;
+import by.minsk.epam.radkevich.homework.electricalappliances.comfort.Ionizer;
+import by.minsk.epam.radkevich.homework.electricalappliances.cooking.CookingDevices;
+import by.minsk.epam.radkevich.homework.electricalappliances.cooking.CookingProcessor;
+import by.minsk.epam.radkevich.homework.electricalappliances.cooking.MicroWaveOwen;
 
 import java.util.ArrayList;
 import java.util.Scanner;

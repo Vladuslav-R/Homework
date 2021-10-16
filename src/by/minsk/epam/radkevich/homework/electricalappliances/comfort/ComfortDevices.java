@@ -1,6 +1,6 @@
-package by.minsk.epam.radkevich.practice.electricalappliances.comfort;
+package by.minsk.epam.radkevich.homework.electricalappliances.comfort;
 
-import by.minsk.epam.radkevich.practice.electricalappliances.ElectricalAppliances;
+import by.minsk.epam.radkevich.homework.electricalappliances.ElectricalAppliances;
 
 public class ComfortDevices extends ElectricalAppliances {
     public ComfortDevices(String name, int powerOfEngine, boolean isPlugged) {

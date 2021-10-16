@@ -1,4 +1,4 @@
-package by.minsk.epam.radkevich.practice.electricalappliances;
+package by.minsk.epam.radkevich.homework.electricalappliances;
 
 public abstract class ElectricalAppliances {
     private String name;
