@@ -1,4 +1,4 @@
-package by.minsk.epam.radkevich.homework;
+package by.utils;
 
 public class ArrayUtils {
 

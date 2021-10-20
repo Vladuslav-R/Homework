@@ -1,4 +1,4 @@
-package by.minsk.epam.radkevich.utils;
+package by.utils;
 
 import java.io.*;
 
