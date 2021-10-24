@@ -53,11 +53,19 @@ public class EnterValue {
         System.out.println(message);
 
         while (!scan.hasNextInt()) {
-            System.out.println(message);
+//            System.out.println(message);
+            scan.next();
+        }
+
+        return scan.nextInt();
+    }public static int enterIntWithoutString() {
+        Scanner scan = new Scanner(System.in);
+
+              while (!scan.hasNextInt()) {
+            System.out.println();
             scan.next();
         }
 
         return scan.nextInt();
     }
-
 }
